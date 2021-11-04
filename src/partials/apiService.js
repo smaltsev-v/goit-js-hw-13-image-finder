@@ -8,7 +8,7 @@ export default class Fetch {
   }
 
   fetchGallery() {
-    const url = `${BASE_URL}&q=${this.searchQuery}&page=${this.pageNumber}&per_page=12&${KEY}`;
+    const url = `${BASE_URL}&q=${this.searchQuery}&page=${this.pageNumber}&per_page=12&key=${KEY}`;
     return fetch(url).then(response => response.json());
   }
   get(queary) {
