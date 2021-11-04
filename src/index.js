@@ -1,4 +1,5 @@
 import './sass/main.scss';
+import './partials/theme';
 import Fetch from './partials/apiService';
 import galleryItems from './tempates/gallery.hbs';
 import debounce from 'lodash.debounce';
